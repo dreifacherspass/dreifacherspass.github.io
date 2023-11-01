@@ -1,10 +1,3 @@
 ---
-layout: post
-title:
-subtitle: 
-gh-repo:
-gh-badge: [star, fork, follow]
-tags: 
-comments: true
-author: 
+12345: 1234134234
 ---
