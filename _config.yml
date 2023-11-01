@@ -61,12 +61,12 @@ social-network-links:
 #  reddit: yourname
 #  linkedin: daattali
 #  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
+#  stackoverflow: 
+#  snapchat: 
+#  instagram: 
+#  spotify: 
+#  telephone: 
+#  steam:
 #  twitch: yourname
 #  yelp: yourname
 #  telegram: yourname
@@ -90,9 +90,9 @@ rss-description: This website is a virtual proof that I'm awesome
 
 # Select which social network share links to show in posts
 share-links-active:
-  twitter: true
-  facebook: true
-  linkedin: true
+  twitter: false
+  facebook: false
+  linkedin: false
   vk: false
 
 # How to display the link to your website in the footer
