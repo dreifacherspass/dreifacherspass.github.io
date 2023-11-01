@@ -25,16 +25,16 @@
 
   <title>{{ title }}</title>
 
-#  {% capture author %}
-#    {%- if page.author -%}
-#      {{  page.author | strip_html }}
-#    {%- elsif site.author -%}
-#      {{ site.author }}
-#    {%- endif -%}
-#  {% endcapture %}
-#  {% if author != "" %}
-#  <meta name="author" content="{{ author }}">
-#  {% endif %}
+  {% capture author %}
+    {%- if page.author -%}
+      {{  page.author | strip_html }}
+    {%- elsif site.author -%}
+      {{ site.author }}
+    {%- endif -%}
+  {% endcapture %}
+  {% if author != "" %}
+  <meta name="author" content="{{ author }}">
+  {% endif %}
 
   <meta name="description" content="{{ description }}">
 
